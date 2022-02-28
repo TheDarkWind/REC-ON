@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB10CEB427BD7FA000A0C4D3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10CEB327BD7FA000A0C4D3 /* SignUpViewController.swift */; };
+		FB10CEB627BD7FF600A0C4D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10CEB527BD7FF600A0C4D3 /* LoginViewController.swift */; };
+		FB10CEB827BD800400A0C4D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10CEB727BD800400A0C4D3 /* HomeViewController.swift */; };
+		FB439CFD27BDCB6E003438F5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB439CFC27BDCB6D003438F5 /* Utilities.swift */; };
+		FB45D34227C0580100E09793 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FB45D34127C0580100E09793 /* FirebaseFirestore */; };
+		FB45D34427C0586000E09793 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FB45D34327C0586000E09793 /* FirebaseDatabase */; };
+		FB45D34627C0587800E09793 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FB45D34527C0587800E09793 /* FirebaseStorage */; };
+		FB9555F827BED0D20022F1D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9555F727BED0D20022F1D1 /* GoogleService-Info.plist */; };
+		FBA3C65627BEF333002A2753 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FBA3C65527BEF333002A2753 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FBA3C65827BEF333002A2753 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FBA3C65727BEF333002A2753 /* FirebaseAuth */; };
+		FBA3C65D27BEF5B1002A2753 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA3C65C27BEF5B1002A2753 /* MapKit.framework */; };
 		FBB8C49727BC54B0000FF7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C49627BC54B0000FF7D5 /* AppDelegate.swift */; };
 		FBB8C49927BC54B0000FF7D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C49827BC54B0000FF7D5 /* SceneDelegate.swift */; };
 		FBB8C49B27BC54B0000FF7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C49A27BC54B0000FF7D5 /* ViewController.swift */; };
@@ -36,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB10CEB327BD7FA000A0C4D3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FB10CEB527BD7FF600A0C4D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB10CEB727BD800400A0C4D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB439CFC27BDCB6D003438F5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FB9555F727BED0D20022F1D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBA3C65C27BEF5B1002A2753 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FBB8C49327BC54B0000FF7D5 /* REC-ON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REC-ON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB8C49627BC54B0000FF7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB8C49827BC54B0000FF7D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB45D34427C0586000E09793 /* FirebaseDatabase in Frameworks */,
+				FBA3C65627BEF333002A2753 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FBA3C65D27BEF5B1002A2753 /* MapKit.framework in Frameworks */,
+				FB45D34227C0580100E09793 /* FirebaseFirestore in Frameworks */,
+				FBA3C65827BEF333002A2753 /* FirebaseAuth in Frameworks */,
+				FB45D34627C0587800E09793 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB10CEB927BD805400A0C4D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB10CEB527BD7FF600A0C4D3 /* LoginViewController.swift */,
+				FB10CEB327BD7FA000A0C4D3 /* SignUpViewController.swift */,
+				FB10CEB727BD800400A0C4D3 /* HomeViewController.swift */,
+				FBB8C49A27BC54B0000FF7D5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB439CFE27BDCB76003438F5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FB439CFC27BDCB6D003438F5 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FBA3C65B27BEF5B1002A2753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA3C65C27BEF5B1002A2753 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBB8C48A27BC54B0000FF7D5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,7 @@
 				FBB8C4AC27BC54B7000FF7D5 /* REC-ONTests */,
 				FBB8C4B627BC54B7000FF7D5 /* REC-ONUITests */,
 				FBB8C49427BC54B0000FF7D5 /* Products */,
+				FBA3C65B27BEF5B1002A2753 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +152,12 @@
 			children = (
 				FBB8C49627BC54B0000FF7D5 /* AppDelegate.swift */,
 				FBB8C49827BC54B0000FF7D5 /* SceneDelegate.swift */,
-				FBB8C49A27BC54B0000FF7D5 /* ViewController.swift */,
-				FBB8C49C27BC54B0000FF7D5 /* Main.storyboard */,
+				FB439CFE27BDCB76003438F5 /* Helper */,
+				FB10CEB927BD805400A0C4D3 /* ViewControllers */,
 				FBB8C49F27BC54B5000FF7D5 /* Assets.xcassets */,
+				FBB8C49C27BC54B0000FF7D5 /* Main.storyboard */,
 				FBB8C4A127BC54B5000FF7D5 /* LaunchScreen.storyboard */,
+				FB9555F727BED0D20022F1D1 /* GoogleService-Info.plist */,
 				FBB8C4A427BC54B5000FF7D5 /* Info.plist */,
 			);
 			path = "REC-ON";
@@ -143,6 +196,13 @@
 			dependencies = (
 			);
 			name = "REC-ON";
+			packageProductDependencies = (
+				FBA3C65527BEF333002A2753 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FBA3C65727BEF333002A2753 /* FirebaseAuth */,
+				FB45D34127C0580100E09793 /* FirebaseFirestore */,
+				FB45D34327C0586000E09793 /* FirebaseDatabase */,
+				FB45D34527C0587800E09793 /* FirebaseStorage */,
+			);
 			productName = "REC-ON";
 			productReference = FBB8C49327BC54B0000FF7D5 /* REC-ON.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = FBB8C48A27BC54B0000FF7D5;
+			packageReferences = (
+				FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FBB8C49427BC54B0000FF7D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB8C4A327BC54B5000FF7D5 /* LaunchScreen.storyboard in Resources */,
+				FB9555F827BED0D20022F1D1 /* GoogleService-Info.plist in Resources */,
 				FBB8C4A027BC54B5000FF7D5 /* Assets.xcassets in Resources */,
 				FBB8C49E27BC54B0000FF7D5 /* Main.storyboard in Resources */,
 			);
@@ -260,7 +324,11 @@
 			files = (
 				FBB8C49B27BC54B0000FF7D5 /* ViewController.swift in Sources */,
 				FBB8C49727BC54B0000FF7D5 /* AppDelegate.swift in Sources */,
+				FB439CFD27BDCB6E003438F5 /* Utilities.swift in Sources */,
+				FB10CEB427BD7FA000A0C4D3 /* SignUpViewController.swift in Sources */,
+				FB10CEB627BD7FF600A0C4D3 /* LoginViewController.swift in Sources */,
 				FBB8C49927BC54B0000FF7D5 /* SceneDelegate.swift in Sources */,
+				FB10CEB827BD800400A0C4D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,8 +505,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N85X7ACF29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "REC-ON/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,9 +523,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TADD.REC-ON";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,8 +535,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N85X7ACF29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "REC-ON/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,9 +553,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TADD.REC-ON";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -598,6 +672,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB45D34127C0580100E09793 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FB45D34327C0586000E09793 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FB45D34527C0587800E09793 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FBA3C65527BEF333002A2753 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FBA3C65727BEF333002A2753 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA3C65427BEF333002A2753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBB8C48B27BC54B0000FF7D5 /* Project object */;
 }

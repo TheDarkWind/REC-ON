@@ -2,8 +2,6 @@
 //  SceneDelegate.swift
 //  REC-ON
 //
-//  Created by Miguel Tor on 2/15/22.
-//
 
 import UIKit
 
